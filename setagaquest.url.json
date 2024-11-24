@@ -1,0 +1,19 @@
+{
+    "globIP": "133.232.194.123",
+    "port": "19132",
+    "GitHub": "https://github.com/KANOKIw/SetagaQuest",
+    "ニックネーム登録(フリー)": "html.scripts/customers/free/getKago/?id=ororor",
+    "ニックネーム登録(ランキング_A)": "html.scripts/customers/ranking/team.alpha.beta.A/getKago/?id=nickName",
+    "ニックネーム登録(ランキング_B)": "html.scripts/customers/ranking/team.alpha.beta.B/getKago/?id=nickName",
+    "クライアント初期化": "html.scripts/customers/checkClient/",
+    "QRクイズ1(4353)": "html.scripts/customers/ranking/team.alpha.beta.A/getKago/?id=4353",
+    "QRクイズ2(6800)": "html.scripts/customers/ranking/team.alpha.beta.A/getKago/?id=6800",
+    "QRクイズ3(8982)": "html.scripts/customers/ranking/team.alpha.beta.A/getKago/?id=8982",
+    "QRクイズ4(7238)": "html.scripts/customers/ranking/team.alpha.beta.A/getKago/?id=7238",
+    "QRクイズ5(3290)": "html.scripts/customers/ranking/team.alpha.beta.A/getKago/?id=3290",
+    "村人(33402)": "html.scripts/customers/ranking/team.alpha.beta.A/villager/?id=33402",
+    "村人(35749)": "html.scripts/customers/ranking/team.alpha.beta.A/villager/?id=35749",
+    "マップ": "map.html",
+    "インベントリ": "inventory.html",
+    "管理者用": "html.scripts/admins/forAdmins/"
+}

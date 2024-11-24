@@ -1,0 +1,241 @@
+[
+    {
+        "embed": {
+            "type": "guide",
+            "color": 16755200,
+            "mention": "@USER",
+            "reason": "Hello!"
+        },
+        "role_color": 3447003,
+        "time": "2023/08/22/02:33",
+        "id": 1143100524657393684,
+        "created_at": 1692606802,
+        "attachments": [],
+        "participants": [
+            1080464218110832660
+        ]
+    },
+    {
+        "author": {
+            "name": "USER",
+            "avater": "https://cdn.discordapp.com/guilds/971597070303625268/users/805680950238642188/avatars/a_ab4c97f02bdb972628cbaf4c6512d0b8.gif?size=1024",
+            "role_color": 3447003,
+            "bot": false
+        },
+        "details": {
+            "content": "Hey! I need you all!"
+        },
+        "time": "2023/08/21/17:33",
+        "id": 1143100587915870298,
+        "attachments": []
+    },
+    {
+        "author": {
+            "name": "USER",
+            "avater": "https://cdn.discordapp.com/guilds/971597070303625268/users/805680950238642188/avatars/a_ab4c97f02bdb972628cbaf4c6512d0b8.gif?size=1024",
+            "role_color": 3447003,
+            "bot": false
+        },
+        "details": {
+            "content": "Please don't kill me."
+        },
+        "time": "2023/08/21/17:33",
+        "id": 1143100626377658448,
+        "attachments": []
+    },
+    {
+        "author": {
+            "name": "USER",
+            "avater": "https://cdn.discordapp.com/guilds/971597070303625268/users/805680950238642188/avatars/a_ab4c97f02bdb972628cbaf4c6512d0b8.gif?size=1024",
+            "role_color": 3447003,
+            "bot": false
+        },
+        "details": {
+            "content": ""
+        },
+        "time": "2023/08/21/17:33",
+        "id": 1143100677409747074,
+        "attachments": [
+            "https://cdn.discordapp.com/attachments/1143100522824482836/1143100676952555542/image.png",
+            "https://cdn.discordapp.com/attachments/1143100522824482836/1143100677191639103/image.png"
+        ]
+    },
+    {
+        "author": {
+            "name": "USER",
+            "avater": "https://cdn.discordapp.com/guilds/971597070303625268/users/805680950238642188/avatars/a_ab4c97f02bdb972628cbaf4c6512d0b8.gif?size=1024",
+            "role_color": 3447003,
+            "bot": false
+        },
+        "details": {
+            "content": "These are what have happened to me."
+        },
+        "time": "2023/08/21/17:34",
+        "id": 1143100736520065094,
+        "attachments": []
+    },
+    {
+        "author": {
+            "name": "USER",
+            "avater": "https://cdn.discordapp.com/guilds/971597070303625268/users/805680950238642188/avatars/a_ab4c97f02bdb972628cbaf4c6512d0b8.gif?size=1024",
+            "role_color": 3447003,
+            "bot": false
+        },
+        "details": {
+            "content": "Please do something against them. <br>I really need you all."
+        },
+        "time": "2023/08/21/17:34",
+        "id": 1143100863666196501,
+        "attachments": []
+    },
+    {
+        "author": {
+            "name": "USER",
+            "avater": "https://cdn.discordapp.com/guilds/971597070303625268/users/805680950238642188/avatars/a_ab4c97f02bdb972628cbaf4c6512d0b8.gif?size=1024",
+            "role_color": 3447003,
+            "bot": false
+        },
+        "details": {
+            "content": "<span class=\"user--mention pointer-w-hovered\" style=\"color: #e91e63;\">@e</span>"
+        },
+        "time": "2023/08/21/17:35",
+        "id": 1143101075914764290,
+        "attachments": []
+    },
+    {
+        "author": {
+            "name": "USER",
+            "avater": "https://cdn.discordapp.com/guilds/971597070303625268/users/805680950238642188/avatars/a_ab4c97f02bdb972628cbaf4c6512d0b8.gif?size=1024",
+            "role_color": 3447003,
+            "bot": false
+        },
+        "details": {
+            "content": "<span class=\"user--mention pointer-w-hovered\" style=\"color: #e91e63;\">@e</span> I really need you"
+        },
+        "time": "2023/08/21/17:35",
+        "id": 1143101116788248626,
+        "attachments": []
+    },
+    {
+        "author": {
+            "name": "USER",
+            "avater": "https://cdn.discordapp.com/guilds/971597070303625268/users/805680950238642188/avatars/a_ab4c97f02bdb972628cbaf4c6512d0b8.gif?size=1024",
+            "role_color": 3447003,
+            "bot": false
+        },
+        "details": {
+            "content": "Particularly, I need you, <span class=\"user--mention pointer-w-hovered\">@KUMANKEN</span>."
+        },
+        "time": "2023/08/21/17:36",
+        "id": 1143101399517904956,
+        "attachments": []
+    },
+    {
+        "author": {
+            "name": "user",
+            "avater": "https://cdn.discordapp.com/avatars/1080464218110832660/13a28ae3377e24fc66c8132760026ce6.png?size=1024",
+            "role_color": 0,
+            "bot": false
+        },
+        "details": {
+            "content": "No, I can't care you.<br>Please contact <span class=\"user--mention pointer-w-hovered\">@Coturnix</span>."
+        },
+        "time": "2023/08/21/17:38",
+        "id": 1143101782642397214,
+        "attachments": []
+    },
+    {
+        "author": {
+            "name": "Coturnix",
+            "avater": "https://cdn.discordapp.com/avatars/1082610869755707442/9223fcb05c6af1123d6c3ebd2669910c.png?size=1024",
+            "role_color": 3447003,
+            "bot": true
+        },
+        "details": {
+            "content": "I AM A BOT."
+        },
+        "time": "2023/08/21/17:39",
+        "id": 1143102003124391956,
+        "attachments": []
+    },
+    {
+        "author": {
+            "name": "USER",
+            "avater": "https://cdn.discordapp.com/guilds/971597070303625268/users/805680950238642188/avatars/a_ab4c97f02bdb972628cbaf4c6512d0b8.gif?size=1024",
+            "role_color": 3447003,
+            "bot": false
+        },
+        "details": {
+            "content": "Don't worry, your avatar looks like a human."
+        },
+        "time": "2023/08/21/17:40",
+        "id": 1143102238907170879,
+        "attachments": []
+    },
+    {
+        "author": {
+            "name": "Coturnix",
+            "avater": "https://cdn.discordapp.com/avatars/1082610869755707442/9223fcb05c6af1123d6c3ebd2669910c.png?size=1024",
+            "role_color": 3447003,
+            "bot": true
+        },
+        "details": {
+            "content": "??? Shut the fuck up. You missed everything. Like my heart with appliciate."
+        },
+        "time": "2023/08/21/17:40",
+        "id": 1143102414858244166,
+        "attachments": []
+    },
+    {
+        "author": {
+            "name": "USER",
+            "avater": "https://cdn.discordapp.com/guilds/971597070303625268/users/805680950238642188/avatars/a_ab4c97f02bdb972628cbaf4c6512d0b8.gif?size=1024",
+            "role_color": 3447003,
+            "bot": false
+        },
+        "details": {
+            "content": "Bruh, so who can help me?"
+        },
+        "time": "2023/08/21/17:41",
+        "id": 1143102471368093718,
+        "attachments": []
+    },
+    {
+        "author": {
+            "name": "user",
+            "avater": "https://cdn.discordapp.com/avatars/1080464218110832660/13a28ae3377e24fc66c8132760026ce6.png?size=1024",
+            "role_color": 0,
+            "bot": false
+        },
+        "details": {
+            "content": "None"
+        },
+        "time": "2023/08/21/17:41",
+        "id": 1143102498173894776,
+        "attachments": []
+    },
+    {
+        "author": {
+            "name": "USER",
+            "avater": "https://cdn.discordapp.com/guilds/971597070303625268/users/805680950238642188/avatars/a_ab4c97f02bdb972628cbaf4c6512d0b8.gif?size=1024",
+            "role_color": 3447003,
+            "bot": false
+        },
+        "details": {
+            "content": "Yo fuck."
+        },
+        "time": "2023/08/21/17:41",
+        "id": 1143102529245286421,
+        "attachments": []
+    },
+    {
+        "embed": {
+            "type": "closer",
+            "color": 15548997
+        },
+        "role_color": 3447003,
+        "time": "2023/08/21/17:41",
+        "id": 1143102543673696266,
+        "attachments": []
+    }
+]

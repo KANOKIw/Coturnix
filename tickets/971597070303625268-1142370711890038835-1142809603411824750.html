@@ -1,0 +1,289 @@
+
+<!DOCTYPE html>
+<html>
+<head aria-label="head">
+    <title>ticket - kanokiw</title>
+    <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/8.2.2/markdown-it.min.js"></script>
+    <script
+        src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha384-rY/jv8mMhqDabXSo+UCggqKtdmBfd3qC2/KvyTDNQ6PcUJXaxK1tMepoQda4g5vB"
+        crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="https://cdn.discordapp.com/attachments/1083021323967672421/1142805515643125900/ticket.css">
+    <script>
+        var w = [];
+        var g = {};
+        function scrollToReplyedMessage(j){
+            const r = document.getElementById(j);
+            r.scrollIntoView({
+                behavior : 'smooth',
+                block    : 'center',
+                inline   : 'center'
+            });
+            if (g[j] != null){
+                for (var k of g[j]){
+                    clearTimeout(k);
+                    g[j].filter(l => l !== k);
+                }
+            } else {
+                g[j] = [];
+            }
+            w.push(j);
+            cL = r.classList[0]["/"];
+            r.classList.remove("chatlog-message-block--highlighted");
+            r.classList.remove("fade-out");
+            setTimeout(function(){
+                r.classList.add("chatlog-message-block--highlighted");
+                r.classList.add("fade-out");
+            }, 0)
+            var m = setTimeout(function(){
+                r.classList.remove("chatlog-message-block--highlighted");
+                r.classList.remove("fade-out");
+                w = w.filter(m => m !== j);
+            }, 2000);
+            g[j].push(m);
+        }
+        function jump(k){
+            window.location.href = k;
+        }
+        !function(d, l) {
+            "use strict";
+            var e = !1
+                , n = !1;
+            if (l.querySelector && d.addEventListener){
+                e = !0;
+            }
+            if (d.wp = d.wp || {},
+            !d.wp.receiveEmbedMessage)
+                if (d.wp.receiveEmbedMessage = function(e) {
+                    var t = e.data;
+                    if (t){
+                        if (t.secret || t.message || t.value){
+                            if (!/[^a-zA-Z0-9]/.test(t.secret)) {
+                                for (var r, i, a, s = l.querySelectorAll('iframe[data-secret="' + t.secret + '"]'), n = l.querySelectorAll('blockquote[data-secret="' + t.secret + '"]'), o = new RegExp("^https?:$","i"), c = 0; c < n.length; c++)
+                                    n[c].style.display = "none";
+                                for (c = 0; c < s.length; c++){
+                                    if (r = s[c],
+                                    e.source === r.contentWindow) {
+                                        if (r.removeAttribute("style"),
+                                        "height" === t.message) {
+                                            if (1e3 < (a = parseInt(t.value, 10))){
+                                                a = 1e3;
+                                            }else if (~~a < 200){
+                                                a = 200;
+                                            }
+                                            r.height = a
+                                        }
+                                        if ("link" === t.message){
+                                            if (i = l.createElement("a"),
+                                            a = l.createElement("a"),
+                                            i.href = r.getAttribute("src"),
+                                            a.href = t.value,
+                                            o.test(a.protocol)){
+                                                if (a.host === i.host){
+                                                    if (l.activeElement === r){
+                                                        d.top.location.href = t.value
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                e){
+                    d.addEventListener("message", d.wp.receiveEmbedMessage, !1),
+                    l.addEventListener("DOMContentLoaded", t, !1),
+                    d.addEventListener("load", t, !1);
+                }
+            function t() {
+                if (!n) {
+                    n = !0;
+                    for (var e, t, r = -1 !== navigator.appVersion.indexOf("MSIE 10"), i = !!navigator.userAgent.match(/Trident.*rv:11\./), a = l.querySelectorAll("iframe.wp-embedded-content"), s = 0; s < a.length; s++) {
+                        if (!(e = a[s]).getAttribute("data-secret"))
+                            t = Math.random().toString(36).substr(2, 10),
+                            e.src += "#?secret=" + t,
+                            e.setAttribute("data-secret", t);
+                        if (r || i)
+                            (t = e.cloneNode(!0)).removeAttribute("security"),
+                            e.parentNode.replaceChild(t, e)
+                    }
+                }
+            }
+        }(window, document);
+    </script>
+    <style>
+        attachment{
+            color: #00aff4;
+        }attachment:hover{
+            text-decoration:underline;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <!-- Message ID digits on discord -->
+    <!-- Author: KANOKIw -->
+
+    <div class="chatlog-message-block">
+        <img id="server-icon" src="https://cdn.discordapp.com/icons/971597070303625268/c1fa90b503d774a291c1ddb55927a248.png?size=1024">
+        <div id="server-ticket--details">
+            <div class="chatlog-text--name-guild">ああ</div>
+            <div class="chatlog-text--name-ticket">ticket - kanokiw</div>
+            <div class="chatlog-text">This is the start of the #ticket-kanokiw channel.</div>
+        </div>
+    </div>
+    <hr class="chatlog-divider">
+
+    <div class="chatlog-message-block" id="1142809605559300132">
+        <span class="upper-icon pointer-w-hovered"><img class="author-icon" src="https://cdn.discordapp.com/avatars/1082610869755707442/9223fcb05c6af1123d6c3ebd2669910c.png?size=1024"></span>
+        <div class="not-icon">
+            <div class="author-details">
+                <span class="author-name" style="color: #3498db;">Coturnix</span>
+                <span class="author-tag">BOT</span>
+                <span class="authed-datetime">2023/08/21/07:17</span>
+                <div class="chatlog--embed">
+                    <div class="chatlog--emed-color" style="background-color: #ffaa00;"></div>
+                    <div class="chatlog--embed-container">
+                        <div class="chatlog--embed-content">
+                            <div class="chatlog--embed-text">
+                                <div class="chatlog--embed-title">Ticket | kanokiw</div>
+                                <div class="chatlog--embed-description">Hello 
+                                    <span class="user--mention pointer-w-hovered">@USER</span>!
+                                    Thank you for contacting support. Please explain your issue below.
+                                    <br>
+                                    <br>
+                                    <strong>Reason:</strong>
+                                    <div class="pre-multiline">aw</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<hr class="chatlog-divider">
+
+    <div class="chatlog--block-contains-replyer" id="1142809619975123004">
+        <div class="chatlog-message-block">
+            <!-- replyer -->
+            <div class="replyer--symbol"></div>
+            <div class="replyer--replyed-message">
+                <img class="replyed--message-author-avater" src="https://cdn.discordapp.com/avatars/1082610869755707442/9223fcb05c6af1123d6c3ebd2669910c.png?size=1024">
+                <span class="author-tag">BOT</span>
+                <span class="replyed--message-author-name" style="color: #3498db;">&nbsp;@Coturnix</span>
+                <div class="chatlog--replyed-message-content">
+                    <span class="chatlog--replyed-message-content-prefix" onclick="e('1142809605559300132')">
+                        クリックして添付ファイルを表示
+                    </span><svg class="repliedTextContentIcon-1LQXRB" aria-hidden="true" role="img" width="20" height="20" viewBox="0 0 24 24"><path fill-rule="evenodd" clip-rule="evenodd" d="M6 2C3.79086 2 2 3.79086 2 6V18C2 20.2091 3.79086 22 6 22H18C20.2091 22 22 20.2091 22 18V6C22 3.79086 20.2091 2 18 2H6ZM10 8C10 6.8952 9.1032 6 8 6C6.8944 6 6 6.8952 6 8C6 9.1056 6.8944 10 8 10C9.1032 10 10 9.1056 10 8ZM9 14L6 18H18L15 11L11 16L9 14Z" fill="currentColor"></path></svg>
+                </div>
+            </div>
+            <!-- replyer end -->
+        </div>
+        <div class="chatlog-message-block--replyer">
+            <span class="pointer-w-hovered"><img class="author-icon" src="https://cdn.discordapp.com/guilds/971597070303625268/users/805680950238642188/avatars/a_ab4c97f02bdb972628cbaf4c6512d0b8.gif?size=1024"></span>
+            <div class="not-icon">
+                <div class="author-details">
+                    <span class="author-name" style="color: #3498db;">USER</span>
+                    
+                    <span class="authed-datetime">2023/08/20/22:17</span>
+                    <div class="chatlog--message">
+                        <div class="markdown">
+                            <span class="chatlog--message-content">
+                                ee
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<hr class="chatlog-divider">
+
+    <div class="chatlog-message-block" id="1142809621287936020">
+        <span class="pointer-w-hovered"><img class="author-icon" src="https://cdn.discordapp.com/guilds/971597070303625268/users/805680950238642188/avatars/a_ab4c97f02bdb972628cbaf4c6512d0b8.gif?size=1024"></span>
+        <div class="not-icon">
+            <div class="author-details">
+                <span class="author-name" style="color: #3498db;">USER</span>
+                <span class="authed-datetime">2023/08/20/22:17</span>
+                <div class="chatlog--message">
+                    <div class="markdown">
+                        <span class="chatlog--message-content">
+                            e
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<hr class="chatlog-divider">
+
+    <div class="chatlog--block-contains-replyer" id="1142809631182303262">
+        <div class="chatlog-message-block">
+            <!-- replyer -->
+            <div class="replyer--symbol"></div>
+            <div class="replyer--replyed-message">
+                <img class="replyed--message-author-avater" src="https://cdn.discordapp.com/guilds/971597070303625268/users/805680950238642188/avatars/a_ab4c97f02bdb972628cbaf4c6512d0b8.gif?size=1024">
+                
+                <span class="replyed--message-author-name" style="color: #3498db;">USER</span>
+                <div class="chatlog--replyed-message-content">
+                    <span class="chatlog--replyed-message-content-prefix" onclick="e('1142809621287936020')">
+                        e
+                    </span>
+                </div>
+            </div>
+            <!-- replyer end -->
+        </div>
+        <div class="chatlog-message-block--replyer">
+            <span class="pointer-w-hovered"><img class="author-icon" src="https://cdn.discordapp.com/guilds/971597070303625268/users/805680950238642188/avatars/a_ab4c97f02bdb972628cbaf4c6512d0b8.gif?size=1024"></span>
+            <div class="not-icon">
+                <div class="author-details">
+                    <span class="author-name" style="color: #3498db;">USER</span>
+                    
+                    <span class="authed-datetime">2023/08/20/22:17</span>
+                    <div class="chatlog--message">
+                        <div class="markdown">
+                            <span class="chatlog--message-content">
+                                awdawd
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr class="chatlog-divider">
+    <div class="chatlog-message-block" id="1142809635926048868">
+        <span class="pointer-w-hovered"><img class="author-icon" src="https://cdn.discordapp.com/avatars/1082610869755707442/9223fcb05c6af1123d6c3ebd2669910c.png?size=1024"></span>
+        <div class="not-icon">
+            <div class="author-details">
+                <span class="author-name" style="color: #3498db;">Coturnix</span>
+                <span class="author-tag">BOT</span>
+                <span class="authed-datetime">2023/08/20/22:17</span>
+                <div class="chatlog--embed">
+                    <div class="chatlog--emed-color" style="background-color: #ed4245;"></div>
+                    <div class="chatlog--embed-container">
+                        <div class="chatlog--embed-content">
+                            <div class="chatlog--embed-text">
+                                <div class="chatlog--embed-title">Close Ticket</div>
+                                <div class="chatlog--embed-description">
+                                    Are you sure you want to close this ticket?
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

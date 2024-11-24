@@ -1,0 +1,89 @@
+[
+    {
+        "embed": {
+            "type": "guide",
+            "color": 16755200,
+            "mention": "@USER",
+            "reason": "A"
+        },
+        "role_color": 3447003,
+        "time": "2024/01/13/04:23",
+        "id": 1195312018643746866,
+        "created_at": 1705054994,
+        "attachments": [],
+        "participants": [
+            805680950238642188,
+            1082610869755707442
+        ]
+    },
+    {
+        "author": {
+            "name": "USER",
+            "avater": "https://cdn.discordapp.com/guilds/971597070303625268/users/805680950238642188/avatars/cafe177f59de52648e77023c803b7175.png?size=1024",
+            "role_color": 3447003,
+            "bot": false
+        },
+        "details": {
+            "content": "Hello"
+        },
+        "time": "2024/01/12/19:23",
+        "id": 1195312112629719121,
+        "attachments": []
+    },
+    {
+        "embed": {
+            "type": "any",
+            "color": 1048575,
+            "title": "kanokiw's&nbsp;avater",
+            "description": "",
+            "images": [
+                null,
+                "https://cdn.discordapp.com/avatars/805680950238642188/a_a7a6a83b43fadff934a29ab6a326cd1f.gif?size=1024"
+            ]
+        },
+        "author": "Coturnix",
+        "avater": "https://cdn.discordapp.com/avatars/1082610869755707442/6c1693c65c291e3fb1b80777d14e5611.png?size=1024",
+        "role_color": 3447003,
+        "time": "2024/01/12/19:23",
+        "id": 1195312150835646494,
+        "attachments": []
+    },
+    {
+        "author": {
+            "name": "Coturnix",
+            "avater": "https://cdn.discordapp.com/avatars/1082610869755707442/6c1693c65c291e3fb1b80777d14e5611.png?size=1024",
+            "role_color": 0,
+            "bot": true
+        },
+        "details": {
+            "content": "\u672c\u5f53\u306b\u9001\u4fe1\u3057\u307e\u3059\u304b\uff1f<br>**content&nbsp;=&nbsp;a**"
+        },
+        "time": "2024/01/12/19:24",
+        "id": 1195312269282775093,
+        "attachments": []
+    },
+    {
+        "author": {
+            "name": "Coturnix",
+            "avater": "https://cdn.discordapp.com/avatars/1082610869755707442/6c1693c65c291e3fb1b80777d14e5611.png?size=1024",
+            "role_color": 3447003,
+            "bot": true
+        },
+        "details": {
+            "content": "a"
+        },
+        "time": "2024/01/12/19:24",
+        "id": 1195312277386174564,
+        "attachments": []
+    },
+    {
+        "embed": {
+            "type": "closer",
+            "color": 15548997
+        },
+        "role_color": 3447003,
+        "time": "2024/01/12/19:24",
+        "id": 1195312428624384084,
+        "attachments": []
+    }
+]

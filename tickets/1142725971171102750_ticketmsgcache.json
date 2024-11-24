@@ -1,0 +1,147 @@
+[
+    {
+        "embed": {
+            "type": "guide",
+            "color": 16755200,
+            "mention": "@USER",
+            "reason": "wa"
+        },
+        "role_color": 3447003,
+        "time": "2023/08/21/01:45",
+        "id": 1142725972899147816,
+        "created_at": 1692517504,
+        "attachments": [],
+        "participants": [
+            805680950238642188,
+            1082610869755707442
+        ]
+    },
+    {
+        "author": {
+            "name": "USER",
+            "avater": "https://cdn.discordapp.com/guilds/971597070303625268/users/805680950238642188/avatars/a_ab4c97f02bdb972628cbaf4c6512d0b8.gif?size=1024",
+            "role_color": 3447003,
+            "bot": false
+        },
+        "details": {
+            "content": "<span class=\"user--mention pointer-w-hovered\">@Coturnix</span> <span class=\"user--mention pointer-w-hovered\">@Coturnix</span> <span class=\"user--mention pointer-w-hovered\">@Coturnix</span> <span class=\"user--mention pointer-w-hovered\">@Coturnix</span>"
+        },
+        "time": "2023/08/20/16:45",
+        "id": 1142725997242888232,
+        "attachments": []
+    },
+    {
+        "author": {
+            "name": "USER",
+            "avater": "https://cdn.discordapp.com/guilds/971597070303625268/users/805680950238642188/avatars/a_ab4c97f02bdb972628cbaf4c6512d0b8.gif?size=1024",
+            "role_color": 3447003,
+            "bot": false
+        },
+        "details": {
+            "content": "a"
+        },
+        "time": "2023/08/20/16:45",
+        "id": 1142726040284827689,
+        "attachments": []
+    },
+    {
+        "author": {
+            "name": "USER",
+            "avater": "https://cdn.discordapp.com/guilds/971597070303625268/users/805680950238642188/avatars/a_ab4c97f02bdb972628cbaf4c6512d0b8.gif?size=1024",
+            "role_color": 3447003,
+            "bot": false
+        },
+        "details": {
+            "content": "a"
+        },
+        "time": "2023/08/20/16:45",
+        "id": 1142726042470068264,
+        "attachments": []
+    },
+    {
+        "author": {
+            "name": "USER",
+            "avater": "https://cdn.discordapp.com/guilds/971597070303625268/users/805680950238642188/avatars/a_ab4c97f02bdb972628cbaf4c6512d0b8.gif?size=1024",
+            "role_color": 3447003,
+            "bot": false
+        },
+        "details": {
+            "content": "a"
+        },
+        "time": "2023/08/20/16:45",
+        "id": 1142726094026448916,
+        "attachments": []
+    },
+    {
+        "embed": {
+            "type": "closer",
+            "color": 15548997
+        },
+        "role_color": 3447003,
+        "time": "2023/08/20/16:45",
+        "id": 1142726186687017022,
+        "attachments": []
+    },
+    {
+        "author": {
+            "name": "USER",
+            "avater": "https://cdn.discordapp.com/guilds/971597070303625268/users/805680950238642188/avatars/a_ab4c97f02bdb972628cbaf4c6512d0b8.gif?size=1024",
+            "role_color": 3447003,
+            "bot": false
+        },
+        "details": {
+            "content": "a"
+        },
+        "time": "2023/08/20/16:45",
+        "id": 1142726196195512400,
+        "attachments": []
+    },
+    {
+        "author": {
+            "name": "USER",
+            "avater": "https://cdn.discordapp.com/guilds/971597070303625268/users/805680950238642188/avatars/a_ab4c97f02bdb972628cbaf4c6512d0b8.gif?size=1024",
+            "role_color": 3447003,
+            "bot": false
+        },
+        "details": {
+            "content": "a"
+        },
+        "time": "2023/08/20/16:46",
+        "id": 1142726213882888233,
+        "attachments": []
+    },
+    {
+        "author": {
+            "name": "USER",
+            "avater": "https://cdn.discordapp.com/guilds/971597070303625268/users/805680950238642188/avatars/a_ab4c97f02bdb972628cbaf4c6512d0b8.gif?size=1024",
+            "role_color": 3447003,
+            "bot": false
+        },
+        "details": {
+            "content": "w"
+        },
+        "time": "2023/08/20/16:48",
+        "id": 1142726792701038682,
+        "reply": {
+            "author": {
+                "name": "USER",
+                "avater": "https://cdn.discordapp.com/guilds/971597070303625268/users/805680950238642188/avatars/a_ab4c97f02bdb972628cbaf4c6512d0b8.gif?size=1024",
+                "role_color": 3447003,
+                "bot": false
+            },
+            "id": 1142725997242888232,
+            "content": "<span class=\"user--mention pointer-w-hovered\">@Coturnix</span> <span class=\"user--mention pointer-w-hovered\">@Coturnix</span>"
+        },
+        "attachments": []
+    },
+    {
+        "embed": {
+            "type": "closer",
+            "color": 15548997
+        },
+        "role_color": 3447003,
+        "time": "2023/08/20/16:48",
+        "id": 1142726826263851119,
+        "attachments": []
+    }
+]

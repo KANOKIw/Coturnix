@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head aria-label="head">
+    <title>ticket - kanokiw</title>
+    <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/8.2.2/markdown-it.min.js"></script>
+    <script
+        src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha384-rY/jv8mMhqDabXSo+UCggqKtdmBfd3qC2/KvyTDNQ6PcUJXaxK1tMepoQda4g5vB"
+        crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="https://cdn.discordapp.com/attachments/1083021323967672421/1142844056796414082/ticket.css">
+    <script>
+        var w = [];
+        var g = {};
+        function e(j){
+            const r = document.getElementById(j);
+            r.scrollIntoView({
+                behavior : 'smooth',
+                block    : 'center',
+                inline   : 'center'
+            });
+            if (g[j] != null){
+                for (var k of g[j]){
+                    clearTimeout(k);
+                    g[j].filter(l => l !== k);
+                }
+            } else {
+                g[j] = [];
+            }
+            w.push(j);
+            cL = r.classList[0]["/"];
+            r.classList.remove("chatlog-message-block--highlighted");
+            r.classList.remove("fade-out");
+            setTimeout(function(){
+                r.classList.add("chatlog-message-block--highlighted");
+                r.classList.add("fade-out");
+            }, 0);
+            var m = setTimeout(function(){
+                r.classList.remove("chatlog-message-block--highlighted");
+                r.classList.remove("fade-out");
+                w = w.filter(m => m !== j);
+            }, 2000);
+            g[j].push(m);
+        }
+        function jump(k){
+            window.location.href = k;
+        }
+        !function(d, l) {
+            "use strict";
+            var e = !1
+                , n = !1;
+            if (l.querySelector && d.addEventListener){
+                e = !0;
+            }
+            if (d.wp = d.wp || {},
+            !d.wp.receiveEmbedMessage)
+                if (d.wp.receiveEmbedMessage = function(e) {
+                    var t = e.data;
+                    if (t){
+                        if (t.secret || t.message || t.value){
+                            if (!/[^a-zA-Z0-9]/.test(t.secret)) {
+                                for (var r, i, a, s = l.querySelectorAll('iframe[data-secret="' + t.secret + '"]'), n = l.querySelectorAll('blockquote[data-secret="' + t.secret + '"]'), o = new RegExp("^https?:$","i"), c = 0; c < n.length; c++)
+                                    n[c].style.display = "none";
+                                for (c = 0; c < s.length; c++){
+                                    if (r = s[c],
+                                    e.source === r.contentWindow) {
+                                        if (r.removeAttribute("style"),
+                                        "height" === t.message) {
+                                            if (1e3 < (a = parseInt(t.value, 10))){
+                                                a = 1e3;
+                                            }else if (~~a < 200){
+                                                a = 200;
+                                            }
+                                            r.height = a
+                                        }
+                                        if ("link" === t.message){
+                                            if (i = l.createElement("a"),
+                                            a = l.createElement("a"),
+                                            i.href = r.getAttribute("src"),
+                                            a.href = t.value,
+                                            o.test(a.protocol)){
+                                                if (a.host === i.host){
+                                                    if (l.activeElement === r){
+                                                        d.top.location.href = t.value
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                e){
+                    d.addEventListener("message", d.wp.receiveEmbedMessage, !1),
+                    l.addEventListener("DOMContentLoaded", t, !1),
+                    d.addEventListener("load", t, !1);
+                }
+            function t() {
+                if (!n) {
+                    n = !0;
+                    for (var e, t, r = -1 !== navigator.appVersion.indexOf("MSIE 10"), i = !!navigator.userAgent.match(/Trident.*rv:11\./), a = l.querySelectorAll("iframe.wp-embedded-content"), s = 0; s < a.length; s++) {
+                        if (!(e = a[s]).getAttribute("data-secret"))
+                            t = Math.random().toString(36).substr(2, 10),
+                            e.src += "#?secret=" + t,
+                            e.setAttribute("data-secret", t);
+                        if (r || i)
+                            (t = e.cloneNode(!0)).removeAttribute("security"),
+                            e.parentNode.replaceChild(t, e)
+                    }
+                }
+            }
+        }(window, document);
+    </script>
+</head>
+<body>
+    <!-- Message ID digits on discord -->
+    <!-- Author: KANOKIw --><div class="chatlog-message-block">
+        <img id="server-icon" src="https://cdn.discordapp.com/icons/971597070303625268/c1fa90b503d774a291c1ddb55927a248.png?size=1024">
+        <div id="server-ticket--details">
+            <div class="chatlog-text--name-guild">‚ ‚ </div>
+            <div class="chatlog-text--name-ticket">ticket - kanokiw</div>
+            <div class="chatlog-text">This is the start of the #ticket-kanokiw channel.</div>
+        </div>
+    </div>
+    <hr class="chatlog-divider">
+
+    <div class="chatlog-message-block" id="1143104482071285902">
+        <span class="upper-icon"><img class="author-icon" src="https://cdn.discordapp.com/avatars/1082610869755707442/9223fcb05c6af1123d6c3ebd2669910c.png?size=1024"></span>
+        <div class="not-icon">
+            <div class="author-details">
+                <span class="author-name" style="color: #3498db;">Coturnix</span>
+                <span class="author-tag">BOT</span>
+                <span class="authed-datetime">2023/08/22/02:49</span>
+                <div class="chatlog--embed">
+                    <div class="chatlog--emed-color" style="background-color: #ffaa00;"></div>
+                    <div class="chatlog--embed-container">
+                        <div class="chatlog--embed-content">
+                            <div class="chatlog--embed-text">
+                                <div class="chatlog--embed-title">Ticket | kanokiw</div>
+                                <div class="chatlog--embed-description">Hello 
+                                    <span class="user--mention ">@USER</span>!
+                                    Thank you for contacting support. Please explain your issue below.
+                                    <br>
+                                    <br>
+                                    <strong>Reason:</strong>
+                                    <div class="pre-multiline">www</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr class="chatlog-divider">
+    <div class="chatlog-message-block" id="1143104865422291035">
+        <span><img class="author-icon" src="https://cdn.discordapp.com/avatars/1082610869755707442/9223fcb05c6af1123d6c3ebd2669910c.png?size=1024"></span>
+        <div class="not-icon">
+            <div class="author-details">
+                <span class="author-name" style="color: #3498db;">Coturnix</span>
+                <span class="author-tag">BOT</span>
+                <span class="authed-datetime">2023/08/21/17:50</span>
+                <div class="chatlog--embed">
+                    <div class="chatlog--emed-color" style="background-color: #ed4245;"></div>
+                    <div class="chatlog--embed-container">
+                        <div class="chatlog--embed-content">
+                            <div class="chatlog--embed-text">
+                                <div class="chatlog--embed-title">Close Ticket</div>
+                                <div class="chatlog--embed-description">
+                                    Are you sure you want to close this ticket?
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

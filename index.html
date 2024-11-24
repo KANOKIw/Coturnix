@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Error 404 (Not Found)</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="//cdn.kanokiw.com:8443/assets/Coturnix.ico">
+    <style>
+* {
+    margin: 0;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: none;
+}
+body {
+    background-color: #36393f;
+    color: #dcddde;
+    font-family: "IBM Plex Sans", Roboto, system-ui, sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.error-message{
+    font-size: 3em;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+}
+.error-message-{
+    text-align: center;
+}
+.chatlog-divider{
+    height: 1px;
+    border-width: 0;
+    color: gray;
+    background-color: #42464d;
+}
+.g{
+    width: max(75%, calc(100% - 40px));
+    display: flex;
+    justify-content: center;
+    pointer-events: none;
+}
+#duha{
+    border-radius: 24px;
+    background-color: hsla(214,15%,91%,1);
+    width: fit-content;
+    color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+#duha > span{
+    display: block;
+    width: 75%;
+}
+#duha > img{
+    width: 100%;
+    pointer-events: none;
+    user-select: none;
+}
+#dusa{
+    font-size: 75%;
+    color: #3b83ff;
+}
+.spacer{
+    width: 1px;
+    height: 20px;
+}
+.error-message-{
+    width: 80%;
+    user-select: none;
+    -webkit-user-select: none;
+}
+@media(min-width:751px){
+    .error-message-{
+        display: block;
+        font-size: 2em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+    }
+}
+@media(max-width:751px){
+    .error-message-{
+        display: block;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+    }
+}
+    </style>
+</head>
+<body>
+    <div id="href--spanner"></div>
+    <div class="spacer"></div>
+    <div class="g">
+        <div id="duha">
+            <img src="//cdn.kanokiw.com:8443/assets/oops.jpg">
+            <h4 class="error-message-">
+                The requested URL:<br>
+                <span id="dusa"></span><br>
+                was not found on this server.
+            </h4>
+        </div>
+    </div>
+    <div id="coturnix--server-cracker"></div>
+    <div id="kicker"></div>
+    <div class="spacer"></div>
+    <script>
+!function(){const a = document.getElementById("dusa");a.innerHTML = window.location.pathname;}();
+    </script>
+</body>
+</html>

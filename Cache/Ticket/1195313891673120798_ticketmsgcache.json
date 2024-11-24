@@ -1,0 +1,50 @@
+[
+    {
+        "embed": {
+            "type": "guide",
+            "color": 16755200,
+            "mention": "@USER",
+            "reason": "AWww"
+        },
+        "role_color": 3447003,
+        "time": "2024/01/13/04:30",
+        "id": 1195313893610881074,
+        "created_at": 1705055441,
+        "attachments": [],
+        "participants": []
+    },
+    {
+        "embed": {
+            "type": "closer",
+            "color": 15548997
+        },
+        "role_color": 3447003,
+        "time": "2024/01/12/19:30",
+        "id": 1195313921570119701,
+        "attachments": []
+    },
+    {
+        "author": {
+            "name": "USER",
+            "avater": "https://cdn.discordapp.com/guilds/971597070303625268/users/805680950238642188/avatars/cafe177f59de52648e77023c803b7175.png?size=1024",
+            "role_color": 3447003,
+            "bot": false
+        },
+        "details": {
+            "content": "wda"
+        },
+        "time": "2024/01/12/19:30",
+        "id": 1195313929895825479,
+        "attachments": []
+    },
+    {
+        "embed": {
+            "type": "closer",
+            "color": 15548997
+        },
+        "role_color": 3447003,
+        "time": "2024/01/12/19:30",
+        "id": 1195313939714687046,
+        "attachments": []
+    }
+]

@@ -1,0 +1,15 @@
+requests
+json
+inspect
+sys
+datetime
+asyncio
+discord
+discord_utils
+subprocess
+os
+time
+random
+python_aternos
+colorama
+discord.ext

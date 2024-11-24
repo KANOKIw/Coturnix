@@ -1,0 +1,26 @@
+[
+    {
+        "embed": {
+            "type": "guide",
+            "color": 16755200,
+            "mention": "@USER",
+            "reason": "www"
+        },
+        "role_color": 3447003,
+        "time": "2023/08/22/02:49",
+        "id": 1143104482071285902,
+        "created_at": 1692607746,
+        "attachments": [],
+        "participants": []
+    },
+    {
+        "embed": {
+            "type": "closer",
+            "color": 15548997
+        },
+        "role_color": 3447003,
+        "time": "2023/08/21/17:50",
+        "id": 1143104865422291035,
+        "attachments": []
+    }
+]

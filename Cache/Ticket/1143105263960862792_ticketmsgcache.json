@@ -1,0 +1,86 @@
+[
+    {
+        "embed": {
+            "type": "guide",
+            "color": 16755200,
+            "mention": "@USER",
+            "reason": "a"
+        },
+        "role_color": 3447003,
+        "time": "2023/08/22/02:52",
+        "id": 1143105269203746887,
+        "created_at": 1692607934,
+        "attachments": [],
+        "participants": []
+    },
+    {
+        "author": {
+            "name": "USER",
+            "avater": "https://cdn.discordapp.com/guilds/971597070303625268/users/805680950238642188/avatars/a_ab4c97f02bdb972628cbaf4c6512d0b8.gif?size=1024",
+            "role_color": 3447003,
+            "bot": false
+        },
+        "details": {
+            "content": "a"
+        },
+        "time": "2023/08/21/17:52",
+        "id": 1143105339554803875,
+        "attachments": []
+    },
+    {
+        "author": {
+            "name": "USER",
+            "avater": "https://cdn.discordapp.com/guilds/971597070303625268/users/805680950238642188/avatars/a_ab4c97f02bdb972628cbaf4c6512d0b8.gif?size=1024",
+            "role_color": 3447003,
+            "bot": false
+        },
+        "details": {
+            "content": "e"
+        },
+        "time": "2023/08/21/17:53",
+        "id": 1143105607465971744,
+        "attachments": []
+    },
+    {
+        "author": {
+            "name": "USER",
+            "avater": "https://cdn.discordapp.com/guilds/971597070303625268/users/805680950238642188/avatars/a_ab4c97f02bdb972628cbaf4c6512d0b8.gif?size=1024",
+            "role_color": 3447003,
+            "bot": false
+        },
+        "details": {
+            "content": "/avater userid: 1082610869755707442"
+        },
+        "time": "2023/08/21/17:53",
+        "id": 1143105645277618247,
+        "attachments": []
+    },
+    {
+        "embed": {
+            "type": "any",
+            "color": 1048575,
+            "title": "Coturnix's avater",
+            "description": "",
+            "images": [
+                null,
+                "https://cdn.discordapp.com/avatars/1082610869755707442/9223fcb05c6af1123d6c3ebd2669910c.png?size=1024"
+            ]
+        },
+        "author": "Coturnix",
+        "avater": "https://cdn.discordapp.com/avatars/1082610869755707442/9223fcb05c6af1123d6c3ebd2669910c.png?size=1024",
+        "role_color": 3447003,
+        "time": "2023/08/21/17:57",
+        "id": 1143106640569188372,
+        "attachments": []
+    },
+    {
+        "embed": {
+            "type": "closer",
+            "color": 15548997
+        },
+        "role_color": 3447003,
+        "time": "2023/08/21/17:57",
+        "id": 1143106678032699412,
+        "attachments": []
+    }
+]
